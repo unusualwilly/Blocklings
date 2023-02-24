@@ -6,12 +6,12 @@
   "item.blocklings.blockling_whistle": "Silbato blockling",
   "item.blocklings.blockling_whistle.location": "Ubicación: ",
 
-  "blocklings.gui.more_info": "Mantén pulsado %s para más información",
+  "blocklings.gui.more_info": "Mantén pulsado %s para obtener más información",
   "blocklings.gui.current_level": "Nivel: %1$s%2$d",
   "blocklings.gui.xp_required": "EXP: %1$s%2$d/%3$d",
-  "blocklings.gui.configure_task": "Configurar tarea",
+  "blocklings.gui.configure_task": "Ajustar tarea",
 
-  "blocklings.type.natural.name": "Natural type: ",
+  "blocklings.type.natural.name": "Tipo natural: ",
   "blocklings.type.natural.desc": "El tipo natural de tu blockling no afecta sus estadísticas bonus pero da un efecto pasivo. Este es su tipo natural y no puede ser cambiado.",
   "blocklings.type.name": "Tipo principal: ",
   "blocklings.type.desc": "El tipo principal de tu blockling afecta sus estadísticas bonus ademas de dar un efecto pasivo. Puede ser cambiado con diferentes items.",
@@ -40,9 +40,9 @@
   "blocklings.type.netherite": "Netherita",
   "blocklings.type.netherite.passive": "Los blocklings de netherita tienen un 10% de probabilidad de desviar un ataque. También tienen inmunidad al fuego.",
   "blocklings.type.obsidian": "Obsidiana",
-  "blocklings.type.obsidian.passive": "Los blocklings de obsidiana dan knockback a sus atacantes al ser atacados. También tienen inmunidad al fuego.",
-  "blocklings.type.glowstone": "Glowstone",
-  "blocklings.type.glowstone.passive": "Los blocklings de glowstone emiten luz.",
+  "blocklings.type.obsidian.passive": "Los blocklings de obsidiana empujan a sus atacantes al ser atacados. También constan de inmunidad al fuego.",
+  "blocklings.type.glowstone": "Piedra luminosa",
+  "blocklings.type.glowstone.passive": "Los blocklings de piedra luminosa emiten luz.",
 
   "blocklings.tab.stats": "Estadísticas",
   "blocklings.tab.tasks": "Tareas",
@@ -132,8 +132,8 @@
   "blocklings.skill.combat.momentum.desc": "Tu blockling atacará más rápido por cada ataque que haga dentro de los 5 segundos del último.",
   "blocklings.skill.combat.wreckless.name": "Wreckless",
   "blocklings.skill.combat.wreckless.desc": "Tu blockling golpea más fuerte pero sus armas usan el doble de durabilidad.",
-  "blocklings.skill.combat.photophile.name": "Fotofilo",
-  "blocklings.skill.combat.photophile.desc": "Tu blockling ataca más rápido cuanto mayor sea el nivel de luz.",
+  "blocklings.skill.combat.photophile.name": "Fotófilo",
+  "blocklings.skill.combat.photophile.desc": "Tu blockling ataca más rápido cuan mayor sea el nivel de luz.",
   "blocklings.skill.combat.regeneration_1.name": "Regeneración I",
   "blocklings.skill.combat.regeneration_1.desc": "Tu blockling se curará 1 salud cada 20 segundos.",
   "blocklings.skill.combat.regeneration_2.name": "Regeneración II",
@@ -148,8 +148,8 @@
   "blocklings.skill.combat.monster_hunter.desc": "Tu blockling recibe el doble de botín de los monstruos al cazar.",
   "blocklings.skill.combat.poison_attacks.name": "Ataques venenosos",
   "blocklings.skill.combat.poison_attacks.desc": "Tu blockling envenenará sus objetivos.",
-  "blocklings.skill.combat.wither_attacks.name": "Ataques de wither",
-  "blocklings.skill.combat.wither_attacks.desc": "Tu blockling dará el efecto Wither a sus enemigos.",
+  "blocklings.skill.combat.wither_attacks.name": "Ataques marchitantes",
+  "blocklings.skill.combat.wither_attacks.desc": "Tu blockling dará el efecto machitante a sus enemigos.",
 
   "blocklings.skill.mining.novice_miner.name": "Minero novato",
   "blocklings.skill.mining.novice_miner.desc": "Desbloqueá la tarea \"Minar\".",
@@ -183,7 +183,7 @@
   "blocklings.skill.woodcutting.hasty.name": "Prisa de leñador",
   "blocklings.skill.woodcutting.hasty.desc": "Tu blockling pica más rápido pero sus hachas usan el doble de durabilidad.",
   "blocklings.skill.woodcutting.night_owl.name": "Búho nocturno",
-  "blocklings.skill.woodcutting.night_owl.desc": "Tu blockling es más rápido cuanto más bajo es el nivel de luz.",
+  "blocklings.skill.woodcutting.night_owl.desc": "Tu blockling es más rápido cuan más bajo es el nivel de luz.",
   "blocklings.skill.woodcutting.leaf_blower.name": "Sopladora de hojas",
   "blocklings.skill.woodcutting.leaf_blower.desc": "Su blockling romperá las hojas adyacentes a los troncos cuando los tale.",
   "blocklings.skill.woodcutting.tree_surgeon.name": "Cirujano de árboles",
@@ -210,8 +210,8 @@
   "blocklings.skill.farming.hasty.name": "Prisa agricola",
   "blocklings.skill.farming.hasty.desc": "Tu blockling cosecha más rápido pero sus azadas usan el doble de durabilidad.",
   "blocklings.skill.farming.night_owl.name": "Búho nocturno",
-  "blocklings.skill.farming.night_owl.desc": "Tu blockling cosecha más rápido cuanto más bajo es el nivel de luz.",
-  "blocklings.skill.farming.scythe.name": "Guadaña",
+  "blocklings.skill.farming.night_owl.desc": "Tu blockling cosecha más rápido cuan bajo es el nivel de luz.",
+  "blocklings.skill.farming.scythe.name": "Krueger",
   "blocklings.skill.farming.scythe.desc": "Tu blockling cosechará en un área de 3x3x3.",
 
   "blocklings.requirements": "Requisitos:",
@@ -228,7 +228,7 @@
   "blocklings.attribute.off_hand_attack_damage.name": "Daño de ataque (Izquierda)",
   "blocklings.attribute.main_hand_attack_damage.name": "Daño de ataque (Derecha)",
   "blocklings.attribute.attack_speed.name": "Velocidad de ataque (Media)",
-  "blocklings.attribute.attack_speed_tools.name": "Tools",
+  "blocklings.attribute.attack_speed_tools.name": "Herramientas",
 
   "blocklings.attribute.armour.name": "Armadura",
   "blocklings.attribute.armour_toughness.name": "Dureza de la armadura",
@@ -262,7 +262,7 @@
   "blocklings.attribute.woodcutting.range": "Rango: %.1f",
   "blocklings.attribute.farming.range": "Rango: %.1f",
 
-  "blocklings.subtitle.blockling_whistle": "Blockling whistle",
+  "blocklings.subtitle.blockling_whistle": "Silbato blockling",
 
-  "blocklings.argument.level.invalid": "Invalid level \"%s\"!"
+  "blocklings.argument.level.invalid": "Nivel invalido \"%s\"!"
 }
